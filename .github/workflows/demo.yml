@@ -13,7 +13,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5  # use the explicit version number
         with:
-        command: npm run ui-regression
+          command: npm run ui-regression
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
