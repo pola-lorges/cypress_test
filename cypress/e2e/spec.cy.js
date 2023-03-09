@@ -16,6 +16,6 @@ describe('Connexion Auchan', () => {
     })
     
     cy.get(':nth-child(3) > .btn').click();
-    cy.get('.notifier__content > span').should('have.text', 'Nom d\'utilisateur ou mot de passe invalide.')
+    cy.get('.notifier__content > span').should('have.text', 'Nom d\'utilisateur ou mot de passe valide.')
   })
 })
