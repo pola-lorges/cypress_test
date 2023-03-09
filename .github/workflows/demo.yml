@@ -43,6 +43,10 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+
     # - name: Slack Notification
     #     uses: rtCamp/action-slack-notify@v2
     #     env:
