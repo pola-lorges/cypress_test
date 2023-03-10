@@ -19,5 +19,10 @@ module.exports = defineConfig({
             allureWriter(on, config);
             return config;
         }
+        
     }
 });
+
+// module.exports= (on,congig)=>{
+//   require('cypress-grep/src/plugin')(congig)
+// }
