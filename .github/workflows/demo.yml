@@ -15,7 +15,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5  # use the explicit version number
         with:
-          command: npm test-allure
+          command: npm run test-allure
 
       - name: Get Allure history
         uses: actions/checkout@v2
