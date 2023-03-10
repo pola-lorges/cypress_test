@@ -1,6 +1,6 @@
 
 
-describe('Connexion Auchan',{tags: '@Connexion'}, () => {
+describe('Connexion Auchan', () => {
   it('passes', () => {
 
     cy.visit('https://www.auchan.fr/')

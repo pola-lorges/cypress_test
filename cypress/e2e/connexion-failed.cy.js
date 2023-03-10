@@ -1,6 +1,6 @@
 
 
-describe('Connexion Auchan failed',{tags: '@ConnexionFailed'}, () => {
+describe('Connexion Auchan failed', () => {
   it('passes', () => {
 
     cy.visit('https://www.auchan.fr/')

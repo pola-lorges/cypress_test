@@ -1,4 +1,4 @@
-describe('Deconnexion Auchan',{tags: '@Deconnexion'}, () => {
+describe('Deconnexion Auchan', () => {
   it('passes', () => {
     cy.visit('https://www.auchan.fr/')
     cy.wait(5 * 1000)
