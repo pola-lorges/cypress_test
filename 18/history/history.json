@@ -1,1 +1,0 @@
-{"511d21e3ee0d42cde6963c60a6a87f7b":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"7081a0cce51f53","reportUrl":"https://pola-lorges.github.io/cypress_test/18//#testresult/7081a0cce51f53","status":"passed","time":{"start":1678363135894,"stop":1678363158452,"duration":22558}}]}}
