@@ -1,0 +1,13 @@
+{
+    "name": "Hamman",
+    "surname": "Bello",
+    "mail": "hambello11@gmail.com",
+    "sex": "M",
+    "company": "PAWK",
+    "password":"Mimosamimosa1",
+    "passwordc": "Mimosamimosa1",
+    "DateOfBirthDay": "5",
+    "DateOfBirthMonth": "1",
+    "DateOfBirthYear": "2000",
+    "productName":["iphone X","Samsung Note 8","Nokia Edge","Blackberry"]
+  }
