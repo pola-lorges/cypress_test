@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 13 15:21:05 GMT 2023","Mon Mar 13 15:21:18 GMT 2023","12867","","My First Test","","","","Add to cart",""
+"passed","Mon Mar 13 15:20:49 GMT 2023","Mon Mar 13 15:20:51 GMT 2023","2714","","My First Test","","","","Login",""
+"failed","Mon Mar 13 15:20:39 GMT 2023","Mon Mar 13 15:20:49 GMT 2023","9904","","My First Test","","","","Register",""
