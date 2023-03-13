@@ -15,11 +15,11 @@ pipeline {
     //will execute in the Jenkins environment depending on where the agent section is placed.
     agent any
 
-    //    tools{
-    //     maven 'maven'
-    //     allure 'allure'
-    //     jdk 'java'
-    //     }
+       tools{
+        maven 'maven'
+        allure 'allure'
+        jdk 'java'
+        }
     
     //The environment directive specifies a sequence of key-value pairs which will be defined
     //as environment variables for all steps, or stage-specific steps, depending on where the environment directive is located within the Pipeline.
@@ -38,9 +38,9 @@ pipeline {
     //The options directive allows configuring Pipeline-specific options from within the Pipeline itself.
     //Pipeline provides a number of these options, such as buildDiscarder, but they may also be provided by
     //plugins, such as timestamps. Ex: retry on failure
-    // options {
-    //     ansiColor('xterm')
-    // }
+    options {
+        ansiColor('xterm')
+    }
 
     //The stage directive goes in the stages section and should contain a steps section, an optional agent section, 
     //or other stage-specific directives. Practically speaking, all of the real work done by a Pipeline will be wrapped
@@ -57,7 +57,7 @@ pipeline {
         stage('Testing') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE'){
-                    //bat "npm i"
+                    bat "npm i"
                     bat "npx cypress run --browser --spec --env  allure=true"
                 }
                 
