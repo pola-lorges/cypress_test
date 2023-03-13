@@ -15,11 +15,11 @@ pipeline {
     //will execute in the Jenkins environment depending on where the agent section is placed.
     agent any
 
-       tools{
-        maven 'maven'
-        allure 'allure'
-        jdk 'java'
-        }
+    //    tools{
+    //     maven 'maven'
+    //     allure 'allure'
+    //     jdk 'java'
+    //     }
     
     //The environment directive specifies a sequence of key-value pairs which will be defined
     //as environment variables for all steps, or stage-specific steps, depending on where the environment directive is located within the Pipeline.
@@ -57,7 +57,7 @@ pipeline {
         stage('Testing') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE'){
-                    bat "npm i"
+                    //bat "npm i"
                     bat "npx cypress run --browser --spec --env  allure=true"
                 }
                 
