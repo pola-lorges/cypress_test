@@ -39,7 +39,7 @@ pipeline {
     //Pipeline provides a number of these options, such as buildDiscarder, but they may also be provided by
     //plugins, such as timestamps. Ex: retry on failure
     options {
-        ansiColor('xterm')
+       // ansiColor('xterm')
     }
 
     //The stage directive goes in the stages section and should contain a steps section, an optional agent section, 
