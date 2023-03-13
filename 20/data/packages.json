@@ -1,1 +1,0 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","children":[{"name":"passes","uid":"1742c02402ee4f58","parentUid":"83edc06c07f9ae9e47eb6dd1b683e4e2","status":"failed","time":{"start":1678367452231,"stop":1678367478954,"duration":26723},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":[]}],"name":"packages"}
