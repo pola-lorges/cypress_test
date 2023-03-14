@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Mar 10 09:34:25 GMT 2023","Fri Mar 10 09:34:25 GMT 2023","1","","cypress/e2e/deconnexion.cy.js","","","","Oops...we found an error preparing this test file: cypress/e2e/deconnexion.cy.js",""
-"broken","Fri Mar 10 09:34:14 GMT 2023","Fri Mar 10 09:34:14 GMT 2023","0","","cypress/e2e/ajout_panier.cy.js","","","","Oops...we found an error preparing this test file: cypress/e2e/ajout_panier.cy.js",""
-"broken","Fri Mar 10 09:34:21 GMT 2023","Fri Mar 10 09:34:21 GMT 2023","0","","cypress/e2e/connexion.cy.js","","","","Oops...we found an error preparing this test file: cypress/e2e/connexion.cy.js",""
-"broken","Fri Mar 10 09:34:18 GMT 2023","Fri Mar 10 09:34:18 GMT 2023","0","","cypress/e2e/connexion-failed.cy.js","","","","Oops...we found an error preparing this test file: cypress/e2e/connexion-failed.cy.js",""
