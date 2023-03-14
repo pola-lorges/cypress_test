@@ -6,18 +6,8 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
-      - name: Slack Notification
-        uses: rtCamp/action-slack-notify@v2
-        continue-on-error: true
-        env:
-          SLACK_CHANNEL: general
-          SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
-          SLACK_ICON: https://github.com/rtCamp.png?size=48
-          SLACK_MESSAGE: 'Test terminé :rocket:'
-          SLACK_TITLE: Pola Testing with Cypress
-          SLACK_USERNAME: Anthony POLA
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          
+      
+
       - name: Checkout
         uses: actions/checkout@v3
       # Install NPM dependencies, cache them correctly
@@ -56,5 +46,15 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 
-      
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        continue-on-error: true
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
+          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          SLACK_MESSAGE: 'Test terminé :rocket:'
+          SLACK_TITLE: Pola Testing with Cypress
+          SLACK_USERNAME: Anthony POLA
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       
