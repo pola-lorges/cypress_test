@@ -16,9 +16,9 @@ pipeline {
     agent any
 
        tools{
-        maven 'maven'
+        maven 'MAVEN_HOME'
         allure 'allure'
-        jdk 'java'
+        jdk 'JAVA_HOME'
         }
     
     //The environment directive specifies a sequence of key-value pairs which will be defined
