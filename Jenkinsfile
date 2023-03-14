@@ -58,7 +58,7 @@ pipeline {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE'){
                     bat "npm i"
-                    bat "npx cypress run --browser --spec --env  allure=true"
+                    bat "npx cypress run  -b chrome --env allure=true"
                 }
                 
             }
