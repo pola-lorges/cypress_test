@@ -54,7 +54,7 @@ jobs:
           SLACK_CHANNEL: general
           SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
           SLACK_ICON: https://github.com/rtCamp.png?size=48
-          SLACK_MESSAGE: 'Test terminé :rocket:'
+          SLACK_MESSAGE: 'Test terminé :rocket: Allure report : https://pola-lorges.github.io/cypress_test/'
           SLACK_TITLE: Pola Testing with Cypress
           SLACK_USERNAME: Anthony POLA
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
