@@ -1,0 +1,15 @@
+{
+  "firstname": "MAFFO",
+  "lastname": "Flaubert",
+  "DateOfBirthDay": 5,
+  "DateOfBirthMonth": 1,
+  "DateOfBirthYear": "2000",
+  "email": "ub@gmail.com",
+  "company": "Tesfaye",
+  "password": "Tesfaye7",
+  "confirmpassword": "Tesfaye7",
+  "productName":["adidas","Apple","computer"],
+  "size": "21",
+  "quantity": "2"
+
+}
