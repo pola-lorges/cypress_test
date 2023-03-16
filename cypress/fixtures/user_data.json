@@ -9,5 +9,8 @@
     "DateOfBirthDay": "5",
     "DateOfBirthMonth": "1",
     "DateOfBirthYear": "2000",
-    "productName":["iphone X","Samsung Note 8","Nokia Edge","Blackberry"]
+    "productName":["iphone X","Samsung Note 8","Nokia Edge","Blackberry"],
+    "qty":3,
+    "nqty":4
   }
+ 
