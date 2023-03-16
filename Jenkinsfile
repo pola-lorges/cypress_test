@@ -31,7 +31,7 @@ pipeline {
     //The values for these user-specified parameters are made available to Pipeline steps via the params object, see
     //the Parameters, Declarative Pipeline for its specific usage.
     parameters {
-        string(name: 'SPEC', defaultValue: 'cypress/integration/**/**',choices: ['chrome', 'edge', 'firefox'], description: 'Ej: cypress/integration/examples/*.spec.js')
+        choice(name: 'SPEC', defaultValue: 'cypress/integration/**/**',choices: ['chrome', 'edge', 'firefox'], description: 'Ej: cypress/integration/examples/*.spec.js')
         choice(name: 'BROWSER', choices: ['chrome', 'edge', 'firefox'], description: 'Pick the web browser you want to use to run your scripts')
     }
     
