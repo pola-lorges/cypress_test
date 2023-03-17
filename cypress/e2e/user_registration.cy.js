@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe('My User Registration', () => 
+describe('My User Registration log', () => 
 
 {
   let register;

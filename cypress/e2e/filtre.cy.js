@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('filtre reg', () => {
   let register;
 
   before(function(){

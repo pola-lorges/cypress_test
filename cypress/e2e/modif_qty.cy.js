@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('modifier la quantite reg', () => {
   let testData_AngularPractice ;
   it('passes', () => {
     cy.fixture('user_data.json').then(function(JSonInside){

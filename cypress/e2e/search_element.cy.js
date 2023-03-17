@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe('Search element', () => 
+describe('Recherhe panier reg', () => 
 
 {
   let register;

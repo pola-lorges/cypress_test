@@ -12,7 +12,7 @@ describe('Login or Logout', () =>
 
   })
 
-    it('User login', () => 
+    it('User login log', () => 
     {
       cy.visit('https://demo.nopcommerce.com')
       cy.title().should('eq','nopCommerce demo store')

@@ -1,4 +1,4 @@
-describe('My First Test', () => {
+describe('login reg', () => {
   let testData_AngularPractice ;
   let productData ;
   
