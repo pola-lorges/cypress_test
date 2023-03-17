@@ -1,6 +1,7 @@
 const { equal } = require("assert");
 
 describe('Ajout panier log', () => {
+  tag : log;
   let testData_AngularPractice ;
   it('passes', () => {
     cy.fixture('user_data.json').then(function(JSonInside){
