@@ -16,7 +16,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5  # use the explicit version number
         with:
-          command: npm run ui-regression 
+          command: npm run one test 
 
       - name: Get Allure history
         uses: actions/checkout@v2
