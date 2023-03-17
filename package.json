@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/cypress run",
     "test-allure": "./node_modules/.bin/cypress run  -b chrome --env allure=true ",
     "allure": "npx allure generate ./allure-results --clean , npx allure open ./allure-report",
-    "ui-regression": " cypress run -b chrome --env allure=true",
+    "ui-regression": "cypress run -b chrome --env allure=true",
     "one test" : "cypress run -b chrome --spec cypress/e2e/spec.cy.js --env allure=true"
   },
   "author": "",
